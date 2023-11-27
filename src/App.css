@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+
+@keyframes colorChange {
+  0% { border-color: red; }
+  25% { border-color: blue; }
+  50% { border-color: rgb(114, 114, 23); }
+  75% { border-color: green; }
+  100% { border-color: red; }
+}
+
+body {
+  background-image: url('background.jpg');
+  background-size: cover;
+}
+
